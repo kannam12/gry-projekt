@@ -8,6 +8,7 @@ public class Collectable : MonoBehaviour
     {
         if (other.gameObject.tag == "Collectable")
         {
+            ScoreManager.instance.ChangeScore();
             Destroy(other.gameObject);
         }
     }
