@@ -21,30 +21,36 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        movement = movement.normalized;
-
-        hf = movement.x > 0.01f ? movement.x : movement.x < -0.01f ? 1 : 0;
-        vf = movement.y > 0.01f ? movement.y : movement.y < -0.01f ? 1 : 0;
-        if (movement.x < -0.01f)
+        if (Timer.instance.timerIsRunning)
         {
-            this.gameObject.transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else
-        {
-            this.gameObject.transform.localScale = new Vector3(1, 1, 1);
-        }
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+            movement = movement.normalized;
 
-        anim.SetFloat("Horizontal", hf);
-        anim.SetFloat("Vertical", movement.y);
-        anim.SetFloat("Speed", vf);
+            hf = movement.x > 0.01f ? movement.x : movement.x < -0.01f ? 1 : 0;
+            vf = movement.y > 0.01f ? movement.y : movement.y < -0.01f ? 1 : 0;
+            if (movement.x < -0.01f)
+            {
+                this.gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            }
+            else
+            {
+                this.gameObject.transform.localScale = new Vector3(1, 1, 1);
+            }
+
+            anim.SetFloat("Horizontal", hf);
+            anim.SetFloat("Vertical", movement.y);
+            anim.SetFloat("Speed", vf);
+        }
     }
 
 
     void FixedUpdate() {
-        rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
-
+        if (Timer.instance.timerIsRunning)
+        {
+            rb.MovePosition(rb.position + movement * (movementSpeed * Time.fixedDeltaTime));
+        }
+        
     }
 
 

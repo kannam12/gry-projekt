@@ -10,10 +10,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/ScoreManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Collectable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sLaKNWD1wDEZrRlTOUIYrRsxSE" />
@@ -59,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1620654264064</updated>
       <workItem from="1620654275540" duration="888000" />
+      <workItem from="1620755094921" duration="234000" />
+      <workItem from="1620755358026" duration="1469000" />
     </task>
     <servers />
   </component>
@@ -77,6 +84,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
