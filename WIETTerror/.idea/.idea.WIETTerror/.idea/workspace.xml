@@ -19,6 +19,7 @@
       <option value="$PROJECT_DIR$/Assets/Collectable.cs" />
       <option value="$PROJECT_DIR$/Assets/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnemyController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sLaKNWD1wDEZrRlTOUIYrRsxSE" />
@@ -66,6 +67,7 @@
       <workItem from="1620654275540" duration="888000" />
       <workItem from="1620755094921" duration="234000" />
       <workItem from="1620755358026" duration="1469000" />
+      <workItem from="1620764909737" duration="6029000" />
     </task>
     <servers />
   </component>
