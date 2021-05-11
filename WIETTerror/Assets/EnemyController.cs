@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     }
 
     private State currentState;
-    private float speed = 0.5f;
+    private float speed = 0.0001f;
     private Vector2 initialPosition;
     private Vector2 currentTarget;
     public bool turnBack;
