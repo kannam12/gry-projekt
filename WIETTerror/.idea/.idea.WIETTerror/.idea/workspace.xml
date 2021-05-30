@@ -11,7 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -19,6 +19,11 @@
       <option value="$PROJECT_DIR$/Assets/Collectable.cs" />
       <option value="$PROJECT_DIR$/Assets/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sLaKNWD1wDEZrRlTOUIYrRsxSE" />
@@ -66,6 +71,9 @@
       <workItem from="1620654275540" duration="888000" />
       <workItem from="1620755094921" duration="234000" />
       <workItem from="1620755358026" duration="1469000" />
+      <workItem from="1622370162665" duration="5065000" />
+      <workItem from="1622376533918" duration="4442000" />
+      <workItem from="1622381131426" duration="63000" />
     </task>
     <servers />
   </component>
