@@ -18,7 +18,10 @@ public class EnemyController : MonoBehaviour
     private Vector2 initialPosition;
     private Vector2 currentTarget;
     private float timer;
+    private Rigidbody2D rb;
+    private Transform target;
 
+    public bool facingRight = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,11 +29,13 @@ public class EnemyController : MonoBehaviour
         initialPosition = new Vector2(transform.position.x, transform.position.y);
         currentTarget = patrolTarget;
         timer = 0;
+
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {    
+
         if (currentState == State.Patrol)
         {
             Debug.Log(currentTarget);
@@ -61,9 +66,24 @@ public class EnemyController : MonoBehaviour
         {
             //attack
         }
-        
+        //not working :(
+        if (Vector2.Distance(target.position,transform.position)<20)
+        {
+
+            transform.position=Vector2.MoveTowards(transform.position, target.position,speed*Time.deltaTime);
+            if(target.position.x > transform.position.x && !facingRight) 
+                Flip();
+            if(target.position.x < transform.position.x && facingRight)
+                Flip();
+        }     
     }
     
+    void Flip(){
+        Vector2 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+        facingRight = !facingRight;
+    }
     public void onSpotted()
     {
         currentState = State.Attack;
