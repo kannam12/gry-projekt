@@ -10,17 +10,16 @@ public class LeaveInChest : MonoBehaviour
     public GameObject chestObj;
 
     void Start() {
-        chestObj = GameObject.Find("Chest");
-        //spriteRenderer = chestObj.GetComponent<spriteRenderer>(); //AaaaaaaaaaAAAAAZAaaaaa DLACZEGO
-        Debug.Log("importowaned");
+        //chestObj = GameObject.Find("Chest");
+        //spriteRenderer = chestObj.GetComponent<spriteRenderer>();
+        //Debug.Log("importowaned");
     }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Chest")
         {
             Debug.Log("opening chest...");
-            spriteRenderer.sprite = closedChest;            
+            spriteRenderer.sprite = openedChest;            
         }
     }
     void OnTriggerExit2D(Collider2D other)
@@ -28,7 +27,7 @@ public class LeaveInChest : MonoBehaviour
         if (other.gameObject.tag == "Chest")
         {
             Debug.Log("closing chest...");
-            spriteRenderer.sprite = openedChest;            
+            spriteRenderer.sprite = closedChest;            
         }
     }
 }

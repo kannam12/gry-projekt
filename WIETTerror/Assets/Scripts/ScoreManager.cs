@@ -8,7 +8,8 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public TextMeshProUGUI text;
-    private int score;
+    public int carried;
+    public int stored;
     
     // Start is called before the first frame update
     void Start()
@@ -20,20 +21,31 @@ public class ScoreManager : MonoBehaviour
         
     }
 
-    public void ChangeScore()
+    public void ChangeScore(int param)
     {
-        score += 1;
-        text.text = "Collected objects: " + score.ToString();
-    }
-    
+        if (param == 1)
+        {
+            carried += 1;
+        }
+        else
+        {
+            stored += carried;
+            carried = 0;
+        }
 
+        text.text = "Carried at the moment: " + carried.ToString() + "   Stored in the chest: " + stored.ToString();
+    }
     // Update is called once per frame
     void Update()
     {
         // TODO: add checking position of the player and else section - winning the game
-        if (!Timer.instance.timerIsRunning && score < 4)
+        if (!Timer.instance.timerIsRunning && stored < 4)
         {
             SceneManager.LoadScene("Scenes/GameOver");
+        }
+        if (stored == 4)
+        {
+            SceneManager.LoadScene("Scenes/YouWin");
         }
     }
 }

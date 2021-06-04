@@ -8,8 +8,14 @@ public class Collectable : MonoBehaviour
     {
         if (other.gameObject.tag == "Collectable")
         {
-            ScoreManager.instance.ChangeScore();
+            ScoreManager.instance.ChangeScore(1);
             Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.tag == "Chest")
+        {
+            Debug.Log("wrzuca do skrzynki...");
+            ScoreManager.instance.ChangeScore(0);          
         }
     }
 }
