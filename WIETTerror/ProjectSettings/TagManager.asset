@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collectable
   - Chest
+  - Falling
   layers:
   - Default
   - TransparentFX
