@@ -9,7 +9,7 @@ public class Shooting : MonoBehaviour {
     public GameObject bulletPrefab;
     PlayerMovement target;
     Vector2 moveDirection;
-    public float bulletForce = 10f;
+    public float bulletForce = 3f;
     float fireRate;
     float nextFire;
     
@@ -39,24 +39,27 @@ public class Shooting : MonoBehaviour {
         if (timer > 2)
         {
 
-
+            
             Shoot();
         }
             
-        }
+    }
 
 
 		
     
 
     void Shoot()
-    { 
+    {
         if (Time.time > nextFire) {
-   
+            
             nextFire = Time.time + fireRate;
             GameObject bullet = Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(FirePoint.up * bulletForce, ForceMode2D.Impulse);
+            //rb.AddForce(FirePoint.up * bulletForce, ForceMode2D.Impulse);
+            Vector2 targetPos = FindObjectOfType<PlayerMovement>().rb.position;
+            Vector2 toTarget = (targetPos - rb.position).normalized;
+            rb.AddForce(toTarget * bulletForce, ForceMode2D.Impulse);
 
         }
         /*
