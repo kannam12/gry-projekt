@@ -33,7 +33,7 @@ public class EnemyController : MonoBehaviour
     {
         if (currentState == State.Patrol)
         {
-            Debug.Log(currentTarget);
+            // Debug.Log(currentTarget);
             
             float step = speed * Time.deltaTime;
             Vector2 currentPosition = new Vector2(transform.position.x, transform.position.y);
@@ -41,14 +41,14 @@ public class EnemyController : MonoBehaviour
 
             if (Vector2.Distance(new Vector2(transform.position.x, transform.position.y), currentTarget) < 0.1f)
             {
-                Debug.LogError("turn back");
+                // Debug.LogError("turn back");
                 currentState = State.Idle;
                 currentTarget = currentTarget == patrolTarget ? initialPosition : patrolTarget;
             }
         }
         else if (currentState == State.Idle)
         {
-            Debug.Log(timer);
+            // Debug.Log(timer);
             timer += Time.deltaTime;
 
             if (timer > 2)
