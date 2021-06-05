@@ -18,7 +18,14 @@ public class EnemyController : MonoBehaviour
     private Vector2 initialPosition;
     private Vector2 currentTarget;
     private float timer;
-
+    /*
+    private Rigidbody2D rb;
+    private Transform target;
+    [SerializeField] private SpriteRenderer _spriteRenderer;
+    
+    public bool facingRight = true;
+    */
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -61,9 +68,31 @@ public class EnemyController : MonoBehaviour
         {
             //attack
         }
+        //not working :(
+        /*
+        if (Vector2.Distance(target.position,transform.position)<20)
+        {
+
+            transform.position=Vector2.MoveTowards(transform.position, target.position,speed*Time.deltaTime);
+            if(target.position.x > transform.position.x && !facingRight) 
+                Flip();
+            if(target.position.x < transform.position.x && facingRight)
+                Flip();
+        } 
+        */
         
     }
-    
+    /*
+    void Flip()
+    {   
+        //try with this true and false and maybe use currentTarget to check
+        //_spriteRenderer.flipX = true;
+        Vector2 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+        facingRight = !facingRight;
+    }
+    */
     public void onSpotted()
     {
         currentState = State.Attack;
