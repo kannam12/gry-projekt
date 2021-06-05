@@ -10,6 +10,8 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI text;
     public int carried;
     public int stored;
+    public TextMeshProUGUI textECTS;
+    public int pointsECTS;
     
     // Start is called before the first frame update
     void Start()
@@ -18,7 +20,10 @@ public class ScoreManager : MonoBehaviour
         {
             instance = this;
         }
-        
+
+        pointsECTS = 30;
+        textECTS.text = "ECTS: " + pointsECTS.ToString();
+
     }
 
     public void ChangeScore(int param)
@@ -35,6 +40,19 @@ public class ScoreManager : MonoBehaviour
 
         text.text = "Carried at the moment: " + carried.ToString() + "   Stored in the chest: " + stored.ToString();
     }
+
+    public void ChangeECTSPoints()
+    {
+        pointsECTS--;
+
+        if (pointsECTS == 0)
+        {
+            SceneManager.LoadScene("Scenes/GameOver");
+        }
+
+        textECTS.text = "ECTS: " + pointsECTS.ToString();
+    }
+    
     // Update is called once per frame
     void Update()
     {
