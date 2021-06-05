@@ -22,8 +22,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ECTSpoints.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sLaKNWD1wDEZrRlTOUIYrRsxSE" />
@@ -75,6 +77,7 @@
       <workItem from="1622376533918" duration="4442000" />
       <workItem from="1622381131426" duration="63000" />
       <workItem from="1622885091233" duration="1888000" />
+      <workItem from="1622913877606" duration="4864000" />
     </task>
     <servers />
   </component>

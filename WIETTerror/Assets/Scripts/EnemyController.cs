@@ -18,12 +18,12 @@ public class EnemyController : MonoBehaviour
     private Vector2 initialPosition;
     private Vector2 currentTarget;
     private float timer;
+    [SerializeField] private SpriteRenderer _spriteRenderer;
+    public bool facingRight;
+    
     /*
     private Rigidbody2D rb;
     private Transform target;
-    [SerializeField] private SpriteRenderer _spriteRenderer;
-    
-    public bool facingRight = true;
     */
     
     // Start is called before the first frame update
@@ -51,6 +51,18 @@ public class EnemyController : MonoBehaviour
                 // Debug.LogError("turn back");
                 currentState = State.Idle;
                 currentTarget = currentTarget == patrolTarget ? initialPosition : patrolTarget;
+                if (currentTarget.x > patrolTarget.x)
+                {
+                    _spriteRenderer.flipX = false;
+                }
+                else if (currentTarget.x < patrolTarget.x)
+                {
+                    _spriteRenderer.flipX = true;
+                }
+                else
+                {
+                    return;
+                }
             }
         }
         else if (currentState == State.Idle)
@@ -61,6 +73,7 @@ public class EnemyController : MonoBehaviour
             if (timer > 2)
             {
                 currentState = State.Patrol;
+                
                 timer = 0;
             }
         }
@@ -93,6 +106,7 @@ public class EnemyController : MonoBehaviour
         facingRight = !facingRight;
     }
     */
+    
     public void onSpotted()
     {
         currentState = State.Attack;

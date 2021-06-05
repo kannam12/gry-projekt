@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Collectable : MonoBehaviour
 {
@@ -16,6 +17,17 @@ public class Collectable : MonoBehaviour
         {
             Debug.Log("wrzuca do skrzynki...");
             ScoreManager.instance.ChangeScore(0);          
+        }
+
+        if (other.gameObject.tag == "minusECTS")
+        {
+            ScoreManager.instance.ChangeECTSPoints();
+            Destroy(other.gameObject);
+        }
+        
+        if (other.gameObject.tag == "Enemy")
+        {
+            SceneManager.LoadScene("Scenes/GameOver");
         }
     }
 }
