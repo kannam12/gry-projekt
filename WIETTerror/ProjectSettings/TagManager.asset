@@ -9,6 +9,9 @@ TagManager:
   - Falling
   - minusECTS
   - Enemy
+  - Water
+  - Lava
+  - plusECTS
   layers:
   - Default
   - TransparentFX

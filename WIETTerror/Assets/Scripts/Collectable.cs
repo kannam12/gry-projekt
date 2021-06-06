@@ -24,6 +24,12 @@ public class Collectable : MonoBehaviour
             ScoreManager.instance.ChangeECTSPoints();
             Destroy(other.gameObject);
         }
+        if (other.gameObject.tag == "plusECTS")
+        {
+            ScoreManager.instance.AddECTSPoints();
+            Destroy(other.gameObject);
+        }
+        
         
         if (other.gameObject.tag == "Enemy")
         {

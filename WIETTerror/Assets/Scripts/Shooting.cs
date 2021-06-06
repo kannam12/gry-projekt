@@ -8,10 +8,14 @@ public class Shooting : MonoBehaviour {
     private float timer;
     public GameObject bulletPrefab;
     PlayerMovement target;
+    public Transform enemy1;
     Vector2 moveDirection;
     public float bulletForce = 3f;
     float fireRate;
     float nextFire;
+    float lifetime = 4f;
+    Vector2 Distance;
+    float DistanceFrom;
     
     void Start () {
         fireRate = 1f;
@@ -38,30 +42,29 @@ public class Shooting : MonoBehaviour {
 
         if (timer > 2)
         {
-
-            
             Shoot();
         }
             
     }
-
-
-		
     
 
     void Shoot()
     {
-        if (Time.time > nextFire) {
-            
-            nextFire = Time.time + fireRate;
-            GameObject bullet = Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
-            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            //rb.AddForce(FirePoint.up * bulletForce, ForceMode2D.Impulse);
-            Vector2 targetPos = FindObjectOfType<PlayerMovement>().rb.position;
-            Vector2 toTarget = (targetPos - rb.position).normalized;
-            rb.AddForce(toTarget * bulletForce, ForceMode2D.Impulse);
+            if (Time.time > nextFire)
+            {
+                nextFire = Time.time + fireRate;
+                GameObject bullet = Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
+                Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+                //rb.AddForce(FirePoint.up * bulletForce, ForceMode2D.Impulse);
+                Vector2 targetPos = FindObjectOfType<PlayerMovement>().rb.position;
+                Vector2 toTarget = (targetPos - rb.position).normalized;
+                
+                rb.AddForce(toTarget * bulletForce, ForceMode2D.Impulse);
+                Destroy(bullet, lifetime);
+     
 
-        }
+            }
+        
         /*
         rb = GetComponent<Rigidbody2D> ();
         target = GameObject.FindObjectOfType<PlayerMovement>();

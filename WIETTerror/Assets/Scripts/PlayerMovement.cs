@@ -47,15 +47,28 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Falling"))
+        if (other.gameObject.CompareTag("Water"))
+        {
+            //Debug.Log("You lose");
+            //SceneManager.LoadScene("Scenes/GameOver");
+            movementSpeed = 0.2f;
+        }
+        if (other.gameObject.CompareTag("Lava"))
         {
             Debug.Log("You lose");
             SceneManager.LoadScene("Scenes/GameOver");
         }
-        else
+        
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Water"))
         {
-            Debug.Log("not");
+            Debug.Log("You exit");
+            //SceneManager.LoadScene("Scenes/GameOver");
+            movementSpeed = 1f;
         }
+
     }
 
     void FixedUpdate() {

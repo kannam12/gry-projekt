@@ -52,6 +52,13 @@ public class ScoreManager : MonoBehaviour
 
         textECTS.text = "ECTS: " + pointsECTS.ToString();
     }
+    public void AddECTSPoints()
+    {
+        pointsECTS++;
+
+
+        textECTS.text = "ECTS: " + pointsECTS.ToString();
+    }
     
     // Update is called once per frame
     void Update()

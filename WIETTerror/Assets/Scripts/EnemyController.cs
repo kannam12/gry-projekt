@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
     private float timer;
     [SerializeField] private SpriteRenderer _spriteRenderer;
     public bool facingRight;
-    
+
     /*
     private Rigidbody2D rb;
     private Transform target;
