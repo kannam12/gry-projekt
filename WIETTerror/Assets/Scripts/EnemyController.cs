@@ -51,11 +51,11 @@ public class EnemyController : MonoBehaviour
                 // Debug.LogError("turn back");
                 currentState = State.Idle;
                 currentTarget = currentTarget == patrolTarget ? initialPosition : patrolTarget;
-                if (currentTarget.x > patrolTarget.x)
+                if (currentTarget.x > transform.position.x)
                 {
                     _spriteRenderer.flipX = false;
                 }
-                else if (currentTarget.x < patrolTarget.x)
+                else if (currentTarget.x < transform.position.x)
                 {
                     _spriteRenderer.flipX = true;
                 }
