@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public float hf = 0.0f;
     public float vf = 0.0f;
+    [SerializeField] private AudioSource waterSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
         {
             //Debug.Log("You lose");
             //SceneManager.LoadScene("Scenes/GameOver");
+            waterSound.Play();
             movementSpeed = 0.2f;
         }
         if (other.gameObject.CompareTag("Lava"))
