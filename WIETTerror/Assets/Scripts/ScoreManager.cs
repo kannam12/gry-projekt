@@ -12,7 +12,7 @@ public class ScoreManager : MonoBehaviour
     public int stored;
     public TextMeshProUGUI textECTS;
     public int pointsECTS;
-    
+
     // Start is called before the first frame update
     void Start()
     {

@@ -12,6 +12,7 @@ TagManager:
   - Water
   - Lava
   - plusECTS
+  - Music
   layers:
   - Default
   - TransparentFX

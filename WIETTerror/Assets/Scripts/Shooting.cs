@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Shooting : MonoBehaviour {
     public Transform FirePoint;
@@ -16,10 +17,12 @@ public class Shooting : MonoBehaviour {
     float lifetime = 4f;
     Vector2 Distance;
     float DistanceFrom;
-    
+    private Rigidbody2D playerRb;
+
     void Start () {
         fireRate = 1f;
         nextFire = Time.time;
+        playerRb = FindObjectOfType<PlayerMovement>().rb;
     }
     /*void Start () {
         rb = GetComponent<Rigidbody2D> ();
@@ -39,12 +42,23 @@ public class Shooting : MonoBehaviour {
     void Update()
     {
         timer += Time.deltaTime;
+        Vector2 targetPos = playerRb.position;
+        Vector2 currentPosition = new Vector2(transform.position.x, transform.position.y);
 
-        if (timer > 2)
+        float distance = (targetPos - currentPosition).magnitude;
+        //Debug.Log(distance);
+
+        if (distance < 0.2f)
         {
+            SceneManager.LoadScene("Scenes/GameOver");
+        }
+        
+        if (distance < 3 && timer > 2)
+        {
+            //Debug.LogError("Shooting");
             Shoot();
         }
-            
+
     }
     
 
