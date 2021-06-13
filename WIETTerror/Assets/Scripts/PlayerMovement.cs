@@ -61,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("You lose");
             SceneManager.LoadScene("Scenes/GameOver");
         }
+
         
     }
     void OnTriggerExit2D(Collider2D other)

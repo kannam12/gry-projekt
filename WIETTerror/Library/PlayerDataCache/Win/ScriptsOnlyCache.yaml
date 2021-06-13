@@ -27,7 +27,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
-    - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
@@ -92,7 +91,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 16978}
+      Script: {instanceID: 3390}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -151,9 +150,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 4244}
+      Script: {instanceID: 4246}
     - Class: 114
-      Script: {instanceID: 4574}
+      Script: {instanceID: 4576}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -238,7 +237,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3244}
     - Class: 114
-      Script: {instanceID: 4564}
+      Script: {instanceID: 4566}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -295,7 +294,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 16978}
+      Script: {instanceID: 3390}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -647,6 +646,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CursorScript
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -885,16 +890,11 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CursorScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/YouWin.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/Ola/Desktop/Build/WIETTerror.exe
+  playerPath: "C:/Users/Sylwia/OneDrive - Akademia G\xF3rniczo-Hutnicza im. Stanis\u0142awa
+    Staszica w Krakowie/Pulpit/WIETTerror.exe"
