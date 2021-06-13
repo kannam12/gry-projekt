@@ -15,11 +15,11 @@ C:/Users/Ola/Desktop/gry-projekt/WIETTerror
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58797
+65532
 Successfully changed project path to: C:/Users/Ola/Desktop/gry-projekt/WIETTerror
 C:/Users/Ola/Desktop/gry-projekt/WIETTerror
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 55.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,179 +35,513 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005342 seconds.
+Registered in 0.006705 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.926 seconds
+- Completed reload, in  1.918 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001966 seconds.
+Registered in 0.001448 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000235F4C83B60 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-0000017CEEB1C050 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002346971ECE0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-0000017CEF1E0B70 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F87377B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000017CF0DAD630 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4A29010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-0000017CEF1E2050 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F856E010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000017CF2412160 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F7A49A20 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-0000017CF2567730 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4D01040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000017CF2567730 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F6EC4980 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000017CF102D480 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4B258F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000017CF1C3D020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4B258F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000017CF1C3D020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F858E6A0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000017CF108CDD0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F85BC0B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000017CF10BA7E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F6CC5030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-0000017CF0DAD630 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F793D030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000017CF193D9A0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4CB7D70 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-0000017CF1C3D020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F6B728A0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-0000017CF1C4E430 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4CE37B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-0000017CEF1E2050 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4CB7D70 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000017CF2402A20 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F6EAF760 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000017CF102D480 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F781C640 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000017CF10E0020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F7799010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000017CEEDFA010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F6CC5030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-0000017CF2818CA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F781C640 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-0000017CF14F2020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F85CC0D0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-0000017CF19549B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4B87FB0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-0000017CF1915820 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F7230020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000017CF14F2020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4B36D00 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000017CF1C4E430 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4AA3020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000017CEF1E2050 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F86C4B00 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-0000017CF1011AE0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F6E04050 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-0000017CF2402A20 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F7782E20 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-0000017CF2818CA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000235F4B36D00 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-0000017CF0F15020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.359 seconds
+- Completed reload, in  1.159 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.0 MB.
 System memory in use after: 87.0 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.664200 ms (FindLiveObjects: 0.313600 ms CreateObjectMapping: 0.133700 ms MarkObjects: 2.062800 ms  DeleteObjects: 0.152400 ms)
+Total: 4.442700 ms (FindLiveObjects: 0.444700 ms CreateObjectMapping: 0.283900 ms MarkObjects: 3.454300 ms  DeleteObjects: 0.257900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/ScoreManager.cs
-  artifactKey: Guid(644f4006ed745aa4c95583f0be7ae863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScoreManager.cs using Guid(644f4006ed745aa4c95583f0be7ae863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d82931cad519a6a600260784934315') in 0.052917 seconds
-  Import took 0.057575 seconds .
+  path: Assets/Gothicvania-Town/Animations/bearded-idle.anim
+  artifactKey: Guid(f4eb954b664ef49d08e94e8cf6e1a49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Animations/bearded-idle.anim using Guid(f4eb954b664ef49d08e94e8cf6e1a49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195995d86f4db45723768e03ee1056fe') in 0.049713 seconds
+  Import took 0.052879 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.27 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 50.2 MB.
-System memory in use after: 50.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 5.520100 ms (FindLiveObjects: 0.516400 ms CreateObjectMapping: 0.236400 ms MarkObjects: 4.579400 ms  DeleteObjects: 0.183400 ms)
+Received Import Request.
+  Time since last request: 0.126472 seconds.
+  path: Assets/Gothicvania-Town/Animations/bearded-walk.anim
+  artifactKey: Guid(01372281352484dd687f34152981524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Animations/bearded-walk.anim using Guid(01372281352484dd687f34152981524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd959ce285f6b8c7a88eb047e7ce797a') in 0.008164 seconds
+  Import took 0.011421 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 50.2 MB.
-System memory in use after: 50.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 6.176000 ms (FindLiveObjects: 0.394300 ms CreateObjectMapping: 0.196400 ms MarkObjects: 5.415400 ms  DeleteObjects: 0.167100 ms)
+Received Import Request.
+  Time since last request: 27.686259 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-01.wav
+  artifactKey: Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-01.wav using Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bea44e3d7c56cd01a38e17edf044a2') in 0.139008 seconds
+  Import took 0.142964 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.10 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 50.2 MB.
-System memory in use after: 50.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.361300 ms (FindLiveObjects: 0.163100 ms CreateObjectMapping: 0.056700 ms MarkObjects: 2.035100 ms  DeleteObjects: 0.105200 ms)
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-47.wav
+  artifactKey: Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-47.wav using Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2c1fa341d2fc1b97fb8b7a7d3fa967') in 0.021916 seconds
+  Import took 0.025542 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 50.2 MB.
-System memory in use after: 50.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 3.733500 ms (FindLiveObjects: 0.359300 ms CreateObjectMapping: 0.177600 ms MarkObjects: 3.086600 ms  DeleteObjects: 0.108000 ms)
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-18.wav
+  artifactKey: Guid(2667a0a008b044e218b63df62e2be749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-18.wav using Guid(2667a0a008b044e218b63df62e2be749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bcaa7e256f723bb0fa7c1aa3e08b44') in 0.020244 seconds
+  Import took 0.023765 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.21 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 50.2 MB.
-System memory in use after: 50.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.708000 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.270800 ms  DeleteObjects: 0.173100 ms)
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-38.wav
+  artifactKey: Guid(84e427d6b66ab4066b6a4dcd0ce819ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-38.wav using Guid(84e427d6b66ab4066b6a4dcd0ce819ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1a1fe4268c167566851f43fb3f6ae6') in 0.018965 seconds
+  Import took 0.021947 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.05 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 50.2 MB.
-System memory in use after: 50.2 MB.
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-16.wav
+  artifactKey: Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-16.wav using Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02ce52afab09c08af9d08e1213e8a3b') in 0.017668 seconds
+  Import took 0.022003 seconds .
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.253000 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.114000 ms MarkObjects: 1.839500 ms  DeleteObjects: 0.111800 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-19.wav
+  artifactKey: Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-19.wav using Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d93a1b0d5987dee723c2b6d014ef704') in 0.020813 seconds
+  Import took 0.026607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-30.wav
+  artifactKey: Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-30.wav using Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab70ddc827fe14464f686793c731f2b') in 0.024268 seconds
+  Import took 0.027957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-24.wav
+  artifactKey: Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-24.wav using Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bae27c0406edfe9ba98afb74a45db9f') in 0.024768 seconds
+  Import took 0.029209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-25.wav
+  artifactKey: Guid(5fdb13d3756c84fecac96f5a2d124370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-25.wav using Guid(5fdb13d3756c84fecac96f5a2d124370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f06e58092fb9a60ee0c80800ec6668a') in 0.019271 seconds
+  Import took 0.026011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-10.wav
+  artifactKey: Guid(cabfae866cab347928b74b7d0ca6bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-10.wav using Guid(cabfae866cab347928b74b7d0ca6bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af049bb28954ab968522c37116911da') in 0.025701 seconds
+  Import took 0.030129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-17.wav
+  artifactKey: Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-17.wav using Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3f210a85f07982aacbc012386d669') in 0.029271 seconds
+  Import took 0.034774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-15.wav
+  artifactKey: Guid(0c008ee3ee72a4362a35be25fa5de043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-15.wav using Guid(0c008ee3ee72a4362a35be25fa5de043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552e9f5313aad3fc086b758b7d9d3a1b') in 0.019887 seconds
+  Import took 0.024293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-07.wav
+  artifactKey: Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-07.wav using Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9247d76cdfbaa5b81f95d399168126') in 0.019408 seconds
+  Import took 0.023931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-23.wav
+  artifactKey: Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-23.wav using Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea9eae36f8d4d2179642c29688e82bd') in 0.018954 seconds
+  Import took 0.022049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-48.wav
+  artifactKey: Guid(7e26c9daf4c32483b9c2790e662d3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-48.wav using Guid(7e26c9daf4c32483b9c2790e662d3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a46d8eb11266128e6b494ccda7470b1') in 0.021947 seconds
+  Import took 0.026363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-04.wav
+  artifactKey: Guid(c5e2a73ad4706440f93bf05df0b465fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-04.wav using Guid(c5e2a73ad4706440f93bf05df0b465fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b4e15baff3afc68ac820e2d4d11bfb') in 0.018701 seconds
+  Import took 0.022242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-05.wav
+  artifactKey: Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-05.wav using Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f09c802c5f097522ede6ee95414f39e') in 0.021177 seconds
+  Import took 0.025793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-14.wav
+  artifactKey: Guid(b6428d4edb06344ba829da4edd9967c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-14.wav using Guid(b6428d4edb06344ba829da4edd9967c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd12756890bf19b7fae633e2a1dcb07') in 0.023949 seconds
+  Import took 0.028199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-49.wav
+  artifactKey: Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-49.wav using Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9179f34800b4751cfeeeb45d94000061') in 0.018961 seconds
+  Import took 0.023453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-31.wav
+  artifactKey: Guid(cf6c0e7fbef9449c98a0cdb5ea0c4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-31.wav using Guid(cf6c0e7fbef9449c98a0cdb5ea0c4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f0316d8affe28c487976b557bfd458') in 0.024251 seconds
+  Import took 0.028323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-40.wav
+  artifactKey: Guid(0994c12e202f342459a4212e7287f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-40.wav using Guid(0994c12e202f342459a4212e7287f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72800ddcc1cb314d2dd3f3cf2082e91') in 0.018388 seconds
+  Import took 0.022269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-41.wav
+  artifactKey: Guid(7e9ee6dc04a5d40d1a5dfc4beb9865e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-41.wav using Guid(7e9ee6dc04a5d40d1a5dfc4beb9865e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5399e9a0178050103f650655eda52a86') in 0.022652 seconds
+  Import took 0.026469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-03.wav
+  artifactKey: Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-03.wav using Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19529ff63412f60706f9716550c4bddf') in 0.019552 seconds
+  Import took 0.023292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-37.wav
+  artifactKey: Guid(a931da70ee74947d5a047de583170ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-37.wav using Guid(a931da70ee74947d5a047de583170ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67b34c15ee19d938b2e26cf2bdbc35a') in 0.022569 seconds
+  Import took 0.026348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-06.wav
+  artifactKey: Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-06.wav using Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0ccab963333a1c7322ce4f9f5e55c4') in 0.019455 seconds
+  Import took 0.023207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-27.wav
+  artifactKey: Guid(5039414d94a6e4e70a5ab9e8833e992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-27.wav using Guid(5039414d94a6e4e70a5ab9e8833e992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791f6cb0550b4287e243a165edbbaa4e') in 0.021155 seconds
+  Import took 0.025772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-22.wav
+  artifactKey: Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-22.wav using Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e850b87a8467aca6d4194ff0d7f3370d') in 0.020620 seconds
+  Import took 0.024592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-39.wav
+  artifactKey: Guid(3becec1909f194046945d85ac1077772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-39.wav using Guid(3becec1909f194046945d85ac1077772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee24ac42a8fcd3b71566243554ddf69') in 0.019430 seconds
+  Import took 0.024191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-12.wav
+  artifactKey: Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-12.wav using Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd060dac6ee4d3293d67abb1e1e845a00') in 0.025222 seconds
+  Import took 0.030894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-20.wav
+  artifactKey: Guid(6e8772b49f34d402a90016ed445d8a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-20.wav using Guid(6e8772b49f34d402a90016ed445d8a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57c883ccc78960646a793f7a822a929') in 0.020849 seconds
+  Import took 0.024562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-11.wav
+  artifactKey: Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-11.wav using Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406684801be670b063ca3e8d9dc67fdd') in 0.023953 seconds
+  Import took 0.027777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-42.wav
+  artifactKey: Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-42.wav using Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8772589bf2149da6ea14af3737cd0bc4') in 0.028395 seconds
+  Import took 0.032213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-45.wav
+  artifactKey: Guid(52320e590bf774734a288886eba557ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-45.wav using Guid(52320e590bf774734a288886eba557ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeadd3a23db9c177de0f67468782d547') in 0.027689 seconds
+  Import took 0.031633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-32.wav
+  artifactKey: Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-32.wav using Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d45eed71005dd3ce25fe563b3152f2f') in 0.022471 seconds
+  Import took 0.026830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-26.wav
+  artifactKey: Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-26.wav using Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611195f053be5aa966689c8934dbc232') in 0.022870 seconds
+  Import took 0.027451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-29.wav
+  artifactKey: Guid(80e397195ea2940b69ee7bdbded856a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-29.wav using Guid(80e397195ea2940b69ee7bdbded856a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65847b923e336007dfeb645f988382c') in 0.018684 seconds
+  Import took 0.024401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-46.wav
+  artifactKey: Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-46.wav using Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89447eff5edbaa55a51f2bd5bd8f4c65') in 0.025446 seconds
+  Import took 0.029072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-35.wav
+  artifactKey: Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-35.wav using Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7530989870219288eb855b01a9d843') in 0.020190 seconds
+  Import took 0.025911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-08.wav
+  artifactKey: Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-08.wav using Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2a938f008699b1d5643b46ed1ef6f9') in 0.024120 seconds
+  Import took 0.029062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-36.wav
+  artifactKey: Guid(df729d213c4be44a9b55cd109f5cd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-36.wav using Guid(df729d213c4be44a9b55cd109f5cd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7016a39f6640d0031e5c438bedc4dc09') in 0.019561 seconds
+  Import took 0.024643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-09.wav
+  artifactKey: Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-09.wav using Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86243c7a9767940ebed2fcf495360bbc') in 0.022490 seconds
+  Import took 0.026754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-33.wav
+  artifactKey: Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-33.wav using Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da91c89998a93bbdcde4d35f74a354f4') in 0.030754 seconds
+  Import took 0.035684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-13.wav
+  artifactKey: Guid(72127805eb2bc4e7fbf2e02eca266cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-13.wav using Guid(72127805eb2bc4e7fbf2e02eca266cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8f1625783aa2c00ef7b30beac75f26') in 0.028460 seconds
+  Import took 0.034894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-43.wav
+  artifactKey: Guid(4b4dd7245f6104c8c8eb07ccf6b386ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-43.wav using Guid(4b4dd7245f6104c8c8eb07ccf6b386ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa263793e570714ad25539722c7b19f') in 0.033280 seconds
+  Import took 0.045528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-21.wav
+  artifactKey: Guid(ffb159a21c8a04135a5616979c828fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-21.wav using Guid(ffb159a21c8a04135a5616979c828fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0103b434325fce40d4be9d72343cb9e') in 0.035302 seconds
+  Import took 0.046078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-28.wav
+  artifactKey: Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-28.wav using Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1cb7c77cf50c59d3c2aece4997dd58') in 0.032896 seconds
+  Import took 0.038386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-34.wav
+  artifactKey: Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-34.wav using Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966ff486bc96b4a4e3033e0c036197da') in 0.036355 seconds
+  Import took 0.044519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-02.wav
+  artifactKey: Guid(dc6614beca09347ec9b258f12d154bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-02.wav using Guid(dc6614beca09347ec9b258f12d154bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03023264dfbe0896ad4cae1ba92ada97') in 0.032014 seconds
+  Import took 0.038065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-44.wav
+  artifactKey: Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-44.wav using Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f385d14713769cddb4b378812118f4') in 0.027409 seconds
+  Import took 0.032494 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

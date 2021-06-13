@@ -56,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
             waterSound.Play();
             movementSpeed = 0.2f;
         }
+        // to minus ECTS points comment below
         if (other.gameObject.CompareTag("Lava"))
         {
             Debug.Log("You lose");
@@ -69,11 +70,22 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Water"))
         {
             Debug.Log("You exit");
+            waterSound.Play();
             //SceneManager.LoadScene("Scenes/GameOver");
             movementSpeed = 1f;
         }
 
     }
+    
+    // to minus ECTS points uncomment below
+    /*
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        //add timer
+        ScoreManager.instance.ChangeECTSPoints();
+
+    }
+    */
 
     void FixedUpdate() {
         if (Timer.instance.timerIsRunning)
