@@ -7,4 +7,9 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene("Scenes/SampleScene");
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
