@@ -3,11 +3,13 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraFollow
     - Collectable
+    - CursorScript
     - EnemyController
     - LeaveInChest
     - PlayerMovement
     - SceneSwitcher
     - ScoreManager
+    - Shooting
     - Timer
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -25,6 +27,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
@@ -66,24 +69,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1512}
     - Class: 114
-      Script: {instanceID: 2098}
+      Script: {instanceID: 2100}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2472}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3210}
+    - Class: 114
+      Script: {instanceID: 16978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -126,25 +135,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2090}
+      Script: {instanceID: 2092}
     - Class: 114
-      Script: {instanceID: 2098}
+      Script: {instanceID: 2100}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2472}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 4242}
+      Script: {instanceID: 4244}
     - Class: 114
-      Script: {instanceID: 4572}
+      Script: {instanceID: 4574}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -182,9 +191,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -197,29 +214,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2174}
+      Script: {instanceID: 2050}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2472}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2660}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2744}
     - Class: 114
-      Script: {instanceID: 2862}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 2944}
     - Class: 114
-      Script: {instanceID: 3070}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3242}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 4562}
+      Script: {instanceID: 3244}
+    - Class: 114
+      Script: {instanceID: 4564}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -253,24 +272,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1512}
     - Class: 114
-      Script: {instanceID: 2098}
+      Script: {instanceID: 2100}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2472}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3210}
+    - Class: 114
+      Script: {instanceID: 16978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -382,6 +407,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: a455d3a1daa062b35a8d25311def94cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shooting
+  - hash:
+      serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -400,7 +431,7 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: 37897ebaec8793a110baec015483b695
+      Hash: 0a04acb95da89743f8cad61ab2a4c9d9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -472,7 +503,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: a50db211aa660951f71b3cfea97ca551
+      Hash: 3aa7fbab2df2d946675e64116a97975e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyController
@@ -514,7 +545,7 @@ ScriptsOnlyBuild:
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 278e1839e09863454d0e3f6626f38bc6
+      Hash: a3b9977228f79d9bf45ee1f2ef0826f9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScoreManager
@@ -598,7 +629,7 @@ ScriptsOnlyBuild:
     className: SceneSwitcher
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 6c4c111e9a50a2a754f597eb2025df64
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Collectable
@@ -854,10 +885,16 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CursorScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/YouWin.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: D:/Ti18/Gry/gry-projekt/WIETTerror/WIETTerror.exe
+  playerPath: C:/Users/Ola/Desktop/Build/WIETTerror.exe

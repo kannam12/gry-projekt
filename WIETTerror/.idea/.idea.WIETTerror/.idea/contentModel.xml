@@ -12,6 +12,7 @@
         <e p="CameraFollow.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Collectable.cs" t="Include" />
+          <e p="CursorScript.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="LeaveInChest.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
