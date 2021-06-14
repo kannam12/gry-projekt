@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float hf = 0.0f;
     public float vf = 0.0f;
     [SerializeField] private AudioSource waterSound;
+    [SerializeField] private AudioSource lavaSound;
 
     float pointRate;
     float nextPoint;
@@ -59,7 +60,12 @@ public class PlayerMovement : MonoBehaviour
         {
 
             waterSound.Play();
-            movementSpeed = 0.2f;
+            movementSpeed = 0.3f;
+        }
+
+        if (other.gameObject.CompareTag("Lava"))
+        {
+            lavaSound.Play();
         }
     }
 
@@ -91,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     nextPoint = Time.time + pointRate;
                     ScoreManager.instance.ChangeECTSPoints();
-                    Debug.Log("tyle czasu minelo" + nextPoint);
+                    //Debug.Log("tyle czasu minelo" + nextPoint);
                 }
             }
         }
