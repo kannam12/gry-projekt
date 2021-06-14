@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = this.GetComponent<Rigidbody2D>();
         anim = this.GetComponent<Animator>();
-        pointRate = 0.5f;
+        pointRate = 0.3f;
         nextPoint = Time.time;
 
     }
