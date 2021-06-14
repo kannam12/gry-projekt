@@ -5,19 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float movementSpeed = 1f;   //Movement Speed of the Player
-    public Vector2 movement;           //Movement Axis
+    public float movementSpeed = 1f; //Movement Speed of the Player
+    public Vector2 movement; //Movement Axis
     public Rigidbody2D rb;
     public Animator anim;
     public float hf = 0.0f;
     public float vf = 0.0f;
     [SerializeField] private AudioSource waterSound;
 
+    float pointRate;
+    float nextPoint;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
         anim = this.GetComponent<Animator>();
+        pointRate = 0.5f;
+        nextPoint = Time.time;
 
     }
 
@@ -45,56 +50,63 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Vertical", movement.y);
             anim.SetFloat("Speed", vf);
         }
-        
+
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Water"))
         {
-            //Debug.Log("You lose");
-            //SceneManager.LoadScene("Scenes/GameOver");
+
             waterSound.Play();
             movementSpeed = 0.2f;
         }
-        // to minus ECTS points comment below
-        if (other.gameObject.CompareTag("Lava"))
-        {
-            Debug.Log("You lose");
-            SceneManager.LoadScene("Scenes/GameOver");
-        }
-
-        
     }
+
     void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Water"))
         {
-            Debug.Log("You exit");
-            waterSound.Play();
-            //SceneManager.LoadScene("Scenes/GameOver");
-            movementSpeed = 1f;
+            if (other.gameObject.CompareTag("Water"))
+            {
+                Debug.Log("You exit");
+                waterSound.Play();
+                movementSpeed = 1f;
+            }
+
         }
 
-    }
+
+
+        void OnTriggerStay2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Water"))
+            {
+
+                //waterSound.Play();
+                movementSpeed = 0.2f;
+            }
+
+            if (other.gameObject.CompareTag("Lava"))
+            {
+                if (Time.time > nextPoint)
+                {
+                    nextPoint = Time.time + pointRate;
+                    ScoreManager.instance.ChangeECTSPoints();
+                    Debug.Log("tyle czasu minelo" + nextPoint);
+                }
+            }
+        }
+
+
+        void FixedUpdate()
+        {
+            if (Timer.instance.timerIsRunning)
+            {
+                rb.MovePosition(rb.position + movement * (movementSpeed * Time.fixedDeltaTime));
+            }
+
+        }
+
+
+
     
-    // to minus ECTS points uncomment below
-    /*
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        //add timer
-        ScoreManager.instance.ChangeECTSPoints();
-
-    }
-    */
-
-    void FixedUpdate() {
-        if (Timer.instance.timerIsRunning)
-        {
-            rb.MovePosition(rb.position + movement * (movementSpeed * Time.fixedDeltaTime));
-        }
-
-    }
-
-
-
 }

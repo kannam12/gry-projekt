@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
 
     public bool timerIsRunning = false;
-    private float timeRemaining = 80;
+    private float timeRemaining = 90;
     public TextMeshProUGUI text;
     public static Timer instance;
     

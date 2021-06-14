@@ -1,851 +1,657 @@
 Using pre-set license
-Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'pl' Physical Memory: 8071 MB
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19041.1052; Version 2004; 64bit' Language: 'pl' Physical Memory: 16227 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Ola/Desktop/gry-projekt/WIETTerror
+D:/Ti18/Gry/gry-projekt/WIETTerror
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51813
-Successfully changed project path to: C:/Users/Ola/Desktop/gry-projekt/WIETTerror
-C:/Users/Ola/Desktop/gry-projekt/WIETTerror
+56741
+Successfully changed project path to: D:/Ti18/Gry/gry-projekt/WIETTerror
+D:/Ti18/Gry/gry-projekt/WIETTerror
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.6f1 (8a2143876886)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Ola/Desktop/gry-projekt/WIETTerror/Assets
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Ti18/Gry/gry-projekt/WIETTerror/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c92)
     Vendor:   
-    VRAM:     4035 MB
-    Driver:   27.20.100.8682
+    VRAM:     4021 MB
+    Driver:   26.21.14.3184
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007709 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001814 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.664 seconds
+- Completed reload, in  1.002 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001590 seconds.
+Registered in 0.000979 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000191FF976730 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024F66620 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024B1F630 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF3769C0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023D1C620 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023D1C620 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023D1C620 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190233E6680 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF9AA940 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF9AA940 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF47B410 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF24C070 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024B1F630 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023D1C620 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234E7030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF9AA940 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024ABF450 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF5566F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190233DF2B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190247D5C30 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF4BECC0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF4BA230 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023B5D020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023BEF040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF89E250 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023B5D020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF6EC250 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF5B99E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024204CA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF368CC0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024B1F630 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023D1C620 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 100.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.92 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.352 seconds
+- Completed reload, in  0.867 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.0 MB.
-System memory in use after: 87.0 MB.
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 3.557300 ms (FindLiveObjects: 0.385800 ms CreateObjectMapping: 0.143300 ms MarkObjects: 2.815900 ms  DeleteObjects: 0.202900 ms)
+Total: 2.109700 ms (FindLiveObjects: 0.177500 ms CreateObjectMapping: 0.071400 ms MarkObjects: 1.743000 ms  DeleteObjects: 0.116300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(c4351298c80f8e64784e1cf630683636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(c4351298c80f8e64784e1cf630683636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3db6c1fd893a8501a98c0a5bbde2d0') in 0.070556 seconds
-  Import took 0.079159 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002058 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000190237F4020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902686F0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026860830 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023453AD0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026531D00 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023453AD0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF5566F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190264DE010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023453AD0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190237F4020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024E0E030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023453AD0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269D2660 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023972020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF766E90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF5566F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF641E70 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023350090 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF661E10 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023350090 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024DE8850 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF766E90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF6B8430 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190264DE010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025CB0080 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65BE10 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269D2660 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023821A30 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF6226F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.192 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.0 MB.
-System memory in use after: 86.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2278.
-Total: 3.701800 ms (FindLiveObjects: 0.262400 ms CreateObjectMapping: 0.107700 ms MarkObjects: 3.184500 ms  DeleteObjects: 0.145400 ms)
+  path: Assets/CUSTOM/minus.prefab
+  artifactKey: Guid(9c7d21e8090f57f4eb808ea312164faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUSTOM/minus.prefab using Guid(9c7d21e8090f57f4eb808ea312164faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34433e889712b3e3782fcf1884430f1f') in 0.113261 seconds
+  Import took 0.116113 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.594724 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(c4351298c80f8e64784e1cf630683636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(c4351298c80f8e64784e1cf630683636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02a890e6e6247b641ae6edd448c9001') in 0.010110 seconds
-  Import took 0.014764 seconds .
+  Time since last request: 13.770938 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3f1f1ddd03e11ad49a077e63e5a58907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3f1f1ddd03e11ad49a077e63e5a58907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed68418874c4f7d0b1155be010f125a') in 0.005530 seconds
+  Import took 0.008214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007482 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3f1f1ddd03e11ad49a077e63e5a58907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3f1f1ddd03e11ad49a077e63e5a58907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed68418874c4f7d0b1155be010f125a') in 0.001591 seconds
+  Import took 0.004541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.833193 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(acdac6153e694d54b8e49b1ed7dcbeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(acdac6153e694d54b8e49b1ed7dcbeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dde90e52e4edae25e510ef159555ef') in 0.015152 seconds
+  Import took 0.023637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.038161 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac69c10f102d84fcf8744b09d3ebca40') in 0.007787 seconds
+  Import took 0.010914 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001976 seconds.
+Registered in 0.001281 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001902394B010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023AF1850 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190267C0B40 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023699E60 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024DDF850 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023699E60 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF62A700 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF260170 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023699E60 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902394B010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023432010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023699E60 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902381B030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902381B030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190233EBB60 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902381B030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF641E70 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF8A0530 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025D5F690 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF882030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024E90430 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF646880 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF976730 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190264DE010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023D2C0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65BFD0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024F44E90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026855020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023699E60 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
+- Completed reload, in  1.246 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.0 MB.
-System memory in use after: 86.0 MB.
+System memory in use before: 89.3 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
-Total: 2.203200 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.072200 ms MarkObjects: 1.646300 ms  DeleteObjects: 0.112800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2285.
+Total: 3.998200 ms (FindLiveObjects: 0.402500 ms CreateObjectMapping: 0.152000 ms MarkObjects: 3.182700 ms  DeleteObjects: 0.258100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 493.186693 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(2036be922d50f8240b7e336d2631e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(2036be922d50f8240b7e336d2631e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e90b9b4e4762c716d4b9654b492365c') in 0.064015 seconds
+  Import took 0.067830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.843218 seconds.
+  path: Assets/Gothicvania-Town
+  artifactKey: Guid(4a4c0ffe043b5cd42aeac4c81c506499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town using Guid(4a4c0ffe043b5cd42aeac4c81c506499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098c51eb6514ecfe80a296d5c5430e10') in 0.005978 seconds
+  Import took 0.009180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.433371 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(acdac6153e694d54b8e49b1ed7dcbeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(acdac6153e694d54b8e49b1ed7dcbeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec07570eba0de30434fc49b491e7705e') in 0.009951 seconds
+  Import took 0.013074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.453112 seconds.
+  path: Assets/Scenes/GameOver.unity
+  artifactKey: Guid(114c8fc44f8e661438544ebdee707c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver.unity using Guid(114c8fc44f8e661438544ebdee707c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9807157ba93ca18ea22276b9dbef12e6') in 0.006230 seconds
+  Import took 0.009039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.366158 seconds.
+  path: Assets/Scenes/YouWin.unity
+  artifactKey: Guid(261ed01ba9ae61c4eb906bcd9ab48260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/YouWin.unity using Guid(261ed01ba9ae61c4eb906bcd9ab48260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f357861a4a3eadebbd67f6fbdda86f05') in 0.006725 seconds
+  Import took 0.009517 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001367 seconds.
+Registered in 0.000708 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000190237F4020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF4B74B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190248015D0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026860830 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234DF020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190235A4020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF6226F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024301060 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF64F7B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234DF020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024DFE020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023432010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025F11E20 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF6226F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025415030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF399010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023A86430 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025415030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024EE8020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF49B420 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190248D2020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025F11E20 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF49B420 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF36F0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190233EBCB0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF661E10 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF64F7B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019027174050 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65BA90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024DE0A50 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190241EFC20 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234DF020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  0.794 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.0 MB.
-System memory in use after: 86.0 MB.
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
-Total: 2.935700 ms (FindLiveObjects: 0.462400 ms CreateObjectMapping: 0.179100 ms MarkObjects: 2.152400 ms  DeleteObjects: 0.140000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 3.447100 ms (FindLiveObjects: 0.418700 ms CreateObjectMapping: 0.235600 ms MarkObjects: 2.685100 ms  DeleteObjects: 0.105200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 241.592091 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk
+  artifactKey: Guid(003dea1224276412a906c771ac4bf1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk using Guid(003dea1224276412a906c771ac4bf1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ec6ec654f06c29965cda939a1d72c4') in 0.010226 seconds
+  Import took 0.014112 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.030848 seconds.
+Registered in 0.000728 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000190237F4020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF8FDD70 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026862F60 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023582030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023453AD0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023582030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234C7030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF9BA020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023582030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024DFE020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023432010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023582030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF4B3450 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF62A700 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF56BCB0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF4B3450 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024EE8020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024AA4030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190264EAEF0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026958FF0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF36F0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF56BCB0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF767DA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024914010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65A1C0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65C190 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF4B3450 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024801040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024914010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.326 seconds
+- Completed reload, in  0.809 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.0 MB.
-System memory in use after: 86.0 MB.
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
-Total: 2.392200 ms (FindLiveObjects: 0.205500 ms CreateObjectMapping: 0.134200 ms MarkObjects: 1.923400 ms  DeleteObjects: 0.127500 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.909200 ms (FindLiveObjects: 0.254400 ms CreateObjectMapping: 0.095400 ms MarkObjects: 2.416000 ms  DeleteObjects: 0.141700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.853901 seconds.
+  path: Assets/Gothicvania-Town/Art
+  artifactKey: Guid(c2b75d76344fa4eb2a35e43ceff06d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art using Guid(c2b75d76344fa4eb2a35e43ceff06d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ceeaabbe2529d95b673cbf1a8c3f654') in 0.010664 seconds
+  Import took 0.013435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.417330 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites
+  artifactKey: Guid(f8b057f1ccf424086a146d170a33bb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites using Guid(f8b057f1ccf424086a146d170a33bb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2dbd6e628d305e52018885d5c25211') in 0.005213 seconds
+  Import took 0.008500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.704567 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-idle
+  artifactKey: Guid(672e55a965f644932ba37c62c989e237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-idle using Guid(672e55a965f644932ba37c62c989e237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3b9c9c35d79af605b500b06efb2ec9') in 0.006042 seconds
+  Import took 0.008894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935647 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk
+  artifactKey: Guid(af9fb62ad0683459fb0707715faf326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk using Guid(af9fb62ad0683459fb0707715faf326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ce3c1c84d837886b6425ad17a2db87') in 0.008123 seconds
+  Import took 0.011854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.419410 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-idle
+  artifactKey: Guid(0a6aabd9d8e7d47abb4ab4a74e8f3d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-idle using Guid(0a6aabd9d8e7d47abb4ab4a74e8f3d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c6e82bf2f6e4315bc1f1be11f6ef39') in 0.007958 seconds
+  Import took 0.011122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.352873 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-idle
+  artifactKey: Guid(40c78764fbb6c4bca858556e5035f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-idle using Guid(40c78764fbb6c4bca858556e5035f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3c41c672238c4caea95e67c855d2dd') in 0.006451 seconds
+  Import took 0.009356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.806859 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk
+  artifactKey: Guid(bc399752b1ea041d9bf54f048c5a6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk using Guid(bc399752b1ea041d9bf54f048c5a6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4a1058ff078f97a9abfaaca6439854') in 0.108399 seconds
+  Import took 0.112102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-3.png
+  artifactKey: Guid(6b7480d049df7495dabbb2d7ac49298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-3.png using Guid(6b7480d049df7495dabbb2d7ac49298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b7e80f00807e12c88c517787f0edc5') in 0.060858 seconds
+  Import took 0.064081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-5.png
+  artifactKey: Guid(101eeb5d0bcf44dd58deba55044073fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-5.png using Guid(101eeb5d0bcf44dd58deba55044073fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97532567d124a527115fc20c93b82e08') in 0.014754 seconds
+  Import took 0.017435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-4.png
+  artifactKey: Guid(3da936c9885934ffb808a9f5e4b05d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-4.png using Guid(3da936c9885934ffb808a9f5e4b05d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7764b55586f9d04b5ccad59a24f80682') in 0.124725 seconds
+  Import took 0.130542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-6.png
+  artifactKey: Guid(19c21e75775b54859a836682f7043799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-6.png using Guid(19c21e75775b54859a836682f7043799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf9514df53f909e2f127df8ae5bfa89') in 0.023986 seconds
+  Import took 0.029075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-1.png
+  artifactKey: Guid(cf4eda157873a45cbba7857a92a403b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-1.png using Guid(cf4eda157873a45cbba7857a92a403b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b716da967f1e4dae53d3944fa41c4158') in 0.019850 seconds
+  Import took 0.023594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-2.png
+  artifactKey: Guid(cbffcc849feea4090b7ad074cbb72a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-2.png using Guid(cbffcc849feea4090b7ad074cbb72a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd632d216f1971beec823d3ebbd0c1b') in 0.016119 seconds
+  Import took 0.019619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.668998 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-1.png
+  artifactKey: Guid(84c76ead687fd4774b85e6e8c56fe2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-1.png using Guid(84c76ead687fd4774b85e6e8c56fe2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750b67e4864247bf071472d99d18a90d') in 0.018593 seconds
+  Import took 0.022044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-4.png
+  artifactKey: Guid(f44b19ddd98454d4b9dfcfa5db94d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-4.png using Guid(f44b19ddd98454d4b9dfcfa5db94d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fe43434450be5f8b8c8164b0c5661c') in 0.019133 seconds
+  Import took 0.021883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-5.png
+  artifactKey: Guid(78be1d6bc5e4b405f97d09ff5db0addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-5.png using Guid(78be1d6bc5e4b405f97d09ff5db0addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008894d5fdab3b4bff4cad03e5ab540b') in 0.022493 seconds
+  Import took 0.025401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-3.png
+  artifactKey: Guid(90314b7c7aa62414ab04cd73b8033c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-3.png using Guid(90314b7c7aa62414ab04cd73b8033c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cfe6b78d133ca87e34cabaa2635152') in 0.018465 seconds
+  Import took 0.021225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-6.png
+  artifactKey: Guid(1df3bc45aab8c47cfb1bf1567210f563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-6.png using Guid(1df3bc45aab8c47cfb1bf1567210f563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54531b633211ec7d17ebd01fc6e4b565') in 0.019869 seconds
+  Import took 0.022706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-2.png
+  artifactKey: Guid(36ef399a34e1d4d6e9fafe520195effc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-2.png using Guid(36ef399a34e1d4d6e9fafe520195effc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ee4c3e5d6ed23e439a86fb0f71c178') in 0.025038 seconds
+  Import took 0.027916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-2.png
+  artifactKey: Guid(36ef399a34e1d4d6e9fafe520195effc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-2.png using Guid(36ef399a34e1d4d6e9fafe520195effc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ee4c3e5d6ed23e439a86fb0f71c178') in 0.008507 seconds
+  Import took 0.011177 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002317 seconds.
+Registered in 0.000612 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000190237F4020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF8FE850 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902685E100 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902652C010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023D22020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902652C010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234C7030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF9BA020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902652C010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024DFE020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023432010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902652C010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF61A8E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902358A040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024ABE040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF4B3450 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024EE8020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026B2A010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190266DCEA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026B2A010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF36F0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024ABE040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026563380 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902370F020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024D62030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65BA90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902358A040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF425510 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024914010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.277 seconds
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 2.017900 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.688200 ms  DeleteObjects: 0.098700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 885.921784 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-walk
+  artifactKey: Guid(fb42a414ebce445fa81e4ca6a773a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-walk using Guid(fb42a414ebce445fa81e4ca6a773a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f63eef514cacfe01a468a36e193ba55') in 0.007926 seconds
+  Import took 0.011218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.778575 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle
+  artifactKey: Guid(6050d2feb234b4548aa74aee7650baa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle using Guid(6050d2feb234b4548aa74aee7650baa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad73e4f1cdeb660f0b8bb1032d144e4') in 0.007059 seconds
+  Import took 0.010735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.250728 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-1.png
+  artifactKey: Guid(7dae316cab1f54aeea0b7b52a1f0495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-1.png using Guid(7dae316cab1f54aeea0b7b52a1f0495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32f70a0351081ae3483b94bc01ad814') in 0.046449 seconds
+  Import took 0.049526 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.1 MB.
-System memory in use after: 86.0 MB.
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2294.
-Total: 2.414800 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.135300 ms MarkObjects: 1.870600 ms  DeleteObjects: 0.115400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 2.249400 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.061000 ms MarkObjects: 1.909500 ms  DeleteObjects: 0.101000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1007.135625 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-1.png
+  artifactKey: Guid(7dae316cab1f54aeea0b7b52a1f0495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-1.png using Guid(7dae316cab1f54aeea0b7b52a1f0495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c63c846e0e0bf4844a1b623c829bb5') in 0.064141 seconds
+  Import took 0.067875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-3.png
+  artifactKey: Guid(246e0385cab41407fb2ba3829ad8fea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-3.png using Guid(246e0385cab41407fb2ba3829ad8fea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c819ec503c803325758ece5d6f533e70') in 0.013415 seconds
+  Import took 0.016331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-2.png
+  artifactKey: Guid(dec23d3f1b157493ea928ad647f275c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-2.png using Guid(dec23d3f1b157493ea928ad647f275c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc672fd1e1bd1568e4b940bb3d3ad610') in 0.017196 seconds
+  Import took 0.020419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-4.png
+  artifactKey: Guid(0d0cae25406c447e3a85ab8e195ac041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-4.png using Guid(0d0cae25406c447e3a85ab8e195ac041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7184358db9889a6d9c46035ca05216b') in 0.013559 seconds
+  Import took 0.016550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-6.png
+  artifactKey: Guid(35140b321bc564c93876fe5a7bb532dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-6.png using Guid(35140b321bc564c93876fe5a7bb532dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1cd75a2f5de6f94d0b6f35b37ada37') in 0.017827 seconds
+  Import took 0.020828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-5.png
+  artifactKey: Guid(b0b63da2b52704d65a05fb59f335baf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-5.png using Guid(b0b63da2b52704d65a05fb59f335baf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae56c3aba0dffce0a7c47c1664b58e9') in 0.012131 seconds
+  Import took 0.018071 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002566 seconds.
+Registered in 0.000768 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000191FF222050 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF8FC410 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023FF5EC0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190270DA010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF64F7B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190270DA010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234C7030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF64F7B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190270DA010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024DFE020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902685B680 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190270DA010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF61A8E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF62A700 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FEFA6CB0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF61A8E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024920D40 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024AA4030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190266DCEA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024AA4030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF36F0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902345BAE0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF767DA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902387A020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902543A010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65C510 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026534020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026AA3620 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902387A020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
+- Completed reload, in  0.810 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.1 MB.
-System memory in use after: 86.1 MB.
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2298.
-Total: 2.964800 ms (FindLiveObjects: 0.452500 ms CreateObjectMapping: 0.180100 ms MarkObjects: 2.206900 ms  DeleteObjects: 0.123700 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 2.228100 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.085000 ms MarkObjects: 1.836700 ms  DeleteObjects: 0.104100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002815 seconds.
+Registered in 0.000654 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000190237F4020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF8FD630 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023BD1DA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902565D010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902565D010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902565D010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234C7030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902565D010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902565D010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024DFE020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023432010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902565D010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF61A8E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF62A700 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024ABE040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF61A8E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024920D40 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024F27090 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190266DCEA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190269750B0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024F27090 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF36F0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190388B89A0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190266DCEA0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026A96010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF866630 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65C510 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025665A20 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF569E90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019026A96010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 2.816900 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.065600 ms MarkObjects: 2.302900 ms  DeleteObjects: 0.164600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 2.024300 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.532000 ms  DeleteObjects: 0.097800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 2.029200 ms (FindLiveObjects: 0.159900 ms CreateObjectMapping: 0.063000 ms MarkObjects: 1.711300 ms  DeleteObjects: 0.094200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2385.540297 seconds.
+  path: Assets/CUSTOM/minus.png
+  artifactKey: Guid(3c8d45d307b881d44bef919bdc7c96b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUSTOM/minus.png using Guid(3c8d45d307b881d44bef919bdc7c96b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e5eb847dd00cba100f4c3f728d0370') in 0.051132 seconds
+  Import took 0.054417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/CUSTOM/plus.png
+  artifactKey: Guid(ccea3417e267cd747898bab79c4e479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUSTOM/plus.png using Guid(ccea3417e267cd747898bab79c4e479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2845a130e77d6478b341b5f48a748484') in 0.012009 seconds
+  Import took 0.014622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 738.719318 seconds.
+  path: Assets/CUSTOM/antena.png
+  artifactKey: Guid(f59667abd60634041915dd099704ff6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUSTOM/antena.png using Guid(f59667abd60634041915dd099704ff6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb286846040b46515ea63ba68f46d55') in 0.041491 seconds
+  Import took 0.045210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/CUSTOM/kable.png
+  artifactKey: Guid(10e85a06f5cf75747866f158a523d8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUSTOM/kable.png using Guid(10e85a06f5cf75747866f158a523d8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a837f6d727997ef9c255f24e8df252a') in 0.016717 seconds
+  Import took 0.020572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/CUSTOM/router.png
+  artifactKey: Guid(04829a686f3163844a8a5592fb75cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUSTOM/router.png using Guid(04829a686f3163844a8a5592fb75cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d8eb544031d09bb9e5a7e909fe9b45') in 0.017755 seconds
+  Import took 0.020465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/CUSTOM/antena.png
+  artifactKey: Guid(f59667abd60634041915dd099704ff6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUSTOM/antena.png using Guid(f59667abd60634041915dd099704ff6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb286846040b46515ea63ba68f46d55') in 0.014224 seconds
+  Import took 0.017328 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000854 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.740 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 3.073000 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.503800 ms  DeleteObjects: 0.160200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.240 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.1 MB.
-System memory in use after: 86.1 MB.
+System memory in use before: 89.5 MB.
+System memory in use after: 89.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2302.
-Total: 4.105600 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.150500 ms MarkObjects: 3.508800 ms  DeleteObjects: 0.124300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001345 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000190237F4020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF8FC410 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF569E90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025CB3510 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025589010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902396B020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025589010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190234C7030 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902396B020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025589010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190241CB010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023432010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF569E90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019025589010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF61A8E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF62A700 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF438AC0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF61A8E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024920D40 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019024F27090 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023EF5010 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF569E90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190253665F0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019023973A30 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001902366A020 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190266DCD80 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190267CF0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF438AC0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF65C510 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190252A8040 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191FF569E90 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000190267CF0E0 doesn't match image C:\Users\Ola\Desktop\gry-projekt\WIETTerror\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.1 MB.
-System memory in use after: 86.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2306.
-Total: 2.541300 ms (FindLiveObjects: 0.244800 ms CreateObjectMapping: 0.093500 ms MarkObjects: 2.068900 ms  DeleteObjects: 0.132900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2337.
+Total: 1.977000 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.611500 ms  DeleteObjects: 0.118700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
